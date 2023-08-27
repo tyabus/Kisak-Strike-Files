@@ -3,9 +3,14 @@
 /platform/
 chrome.pak
 csgo.sh
+csgo.exe
+csgo_win64.exe
 csgo_linux64
 *.map
 *.trace
+*.pdb
+*.dll
+*.dll.*
 *.so
 *.so.*
 steam_appid.txt
@@ -15,8 +20,9 @@ vgcore.*
 csgo_linux
 srcds_linux
 
-
 /csgo/*
-#Dont ignore rocketui folder
+# Dont ignore customized/added folders!
 !/csgo/rocketui
 !/csgo/rocketui/*
+!/csgo/resource
+!/csgo/resource/*
